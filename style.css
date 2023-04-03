@@ -1,0 +1,128 @@
+body {
+    font-family: "Trebuchet MS", "Calibri Light", sans-serif;
+    background-image: url(media/bg.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    height: 100vh;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field {
+    background: rgba(51, 45, 45, 0.56);
+    border-radius: 14px;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    background: rgba(51, 45, 45, 0.75);
+    padding: 3%;
+    border-radius: 14px;
+    font-size: 200%;
+}
+
+h2 {
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    margin-top: 3%;
+    border-radius: 20px;
+    padding: 3px;
+    font-weight: bold;
+    background-color: #d5cfcf;
+    text-align: center;
+    max-width: 60%;
+}
+
+p {
+    font-weight: bold;
+    color: white;
+    font-size: 130%;
+    padding: 1%;
+    border-radius: 14px;
+}
+
+p img {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+#message {
+    max-width: 70%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#roundsCounter {
+    padding: 4px;
+}
+
+img {
+    margin-top: 10px;
+}
+
+#fighterSelection {
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#pScore {
+    padding: 0;
+}
+
+#score {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #211c1c;
+}
+
+.box {
+    padding: 0.5em;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    font-weight: bold;
+    font-size: 100%;
+    color: #ffffff;
+    width: 150px;
+    background-color: #fcaa3f;
+    border-radius: 5px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+#rock {
+    background-color: #d2ab7a;
+}
+
+#paper {
+    background-color: #ece8d8;
+}
+
+#scissors {
+    background-color: #645c59;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #053056;
+    transform: scale(1.2);
+    padding-left: 20px;
+}

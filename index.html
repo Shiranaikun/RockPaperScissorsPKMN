@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+<h1>Rock, Paper, Scissors</h1>
+
+<div class="field">
+
+    <p id="message">How many matches do you want to fight? <br>
+
+        <input type="number" id="round-field">
+        <button id="submit-btn">SUBMIT</button>
+        <br>
+        <img src="media/pokeball.png" alt="pokeball"><br>
+    </p>
+    <p id="fighterSelection">
+        <button id="🧱">🧱</button>
+        <button id="📝">📝</button>
+        <button id="✂️">✂️</button>
+    </p>
+    <div id="battlefield"></div>
+
+    <p id="arena"></p>
+    <p id="result"></p>
+    <p id="roundsCounter">Matches left: </p>
+
+    <div id="score">
+        <h2>Current Score</h2>
+        <p id="pScore"></p>
+        <p id="AIScore"></p>
+    </div>
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
